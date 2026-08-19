@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS Platforms](#saas-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -38,65 +38,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-## SaaS/Hosted Platforms
+## SaaS Platforms
 
-- **[Confluence (Atlassian)](https://www.atlassian.com/software/confluence)**  
-
-  Established enterprise team wiki tightly integrated with Jira and the Atlassian ecosystem, widely used for structured internal documentation.
-
-
-
-- **[Notion](https://www.notion.so/)**  
-
-  Flexible all-in-one workspace that serves as a modern company wiki, knowledge base, and collaborative documentation platform.
-
-
-
-- **[Slab](https://slab.com/)**  
-
-  Clean, focused company wiki designed for simplicity, strong search, and easy knowledge sharing across teams.
-
-
-
-- **[Nuclino](https://www.nuclino.com/)**  
-
-  Lightweight, visual knowledge base with a graph-oriented structure and fast collaborative editing.
-
-
-
-- **[BookStack](https://www.bookstackapp.com/)**  
-
-  Simple, structured wiki (also available as open-source/self-hosted) organized around books, chapters, and pages.
-
-
-
-- **[Outline](https://www.getoutline.com/)**  
-
-  Modern, polished team knowledge base with a Notion-like editor experience and strong self-hosted option.
-
-
-
-- **[Wiki.js](https://js.wiki/)**  
-
-  Powerful, modern open-source wiki (with hosted options) built on Node.js, supporting Markdown, multiple editors, and Git sync.
-
-
-
-- **[Tettra](https://tettra.com/)**  
-
-  Knowledge management platform optimized for Slack-first teams, with AI-assisted Q&A and verification workflows.
-
-
-
-- **[Guru](https://www.getguru.com/)**  
-
-  Enterprise knowledge platform that delivers verified answers in the flow of work, with strong governance and AI features.
-
-
-
-- **[Document360](https://document360.com/)**  
-
-  Knowledge base and documentation platform focused on product docs, customer-facing content, and analytics-driven insights.
+| Product | Description | Starting Price | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Confluence (Atlassian)](https://www.atlassian.com/software/confluence)** | Established enterprise team wiki tightly integrated with Jira and the Atlassian ecosystem for structured documentation. | $6.05 / user / month (Standard plan) | **Free Plan:** Free forever for up to 10 users with 2 GB total storage, unlimited pages/spaces, and standard integrations (excludes granular permissions and audit logs). |
+| **[Notion](https://www.notion.so/)** | Flexible all-in-one workspace serving as a company wiki, docs repository, and collaborative project management hub. | $10.00 / user / month billed annually ($12.00 billed monthly for Plus) | **Free Plan:** Unlimited blocks for solo users; capped at 1,000 blocks when 2+ team members are added. Includes 5 MB file upload limit, 10 guest collaborators, and 7-day page history. |
+| **[Slab](https://slab.com/)** | Clean, modern knowledge hub optimized for fast search, unified integrations, and structured company wikis. | $6.67 / user / month billed annually ($8.00 billed monthly for Startup) | **Free Plan:** Free forever for up to 10 users with unlimited posts/topics, 10 MB per attachment limit, 90-day version history, and standard integrations (excludes SAML SSO/SCIM). |
+| **[Nuclino](https://www.nuclino.com/)** | Lightweight, visual team workspace combining docs, wikis, and graphs with instant real-time collaboration. | $6.00 / user / month billed annually ($8.00 billed monthly for Standard) | **Free Plan:** Free forever for unlimited users capped at 50 items (documents/pages), 3 canvas boards, 2 GB total storage, and 5 MB file upload limit. |
+| **[Outline](https://www.getoutline.com/)** | Fast, collaborative team wiki with a markdown-friendly editor, structured collections, and modern UI (hosted cloud service). | $10.00 / month flat rate (for 1–10 users; $4.00 / user / month for teams >10) | **Free Trial:** 30-day free trial with full cloud features (unlimited docs and team members); becomes read-only with document export allowed after 30 days unless upgraded. *(Self-hosted edition is 100% free open source).* |
+| **[Tettra](https://tettra.com/)** | Knowledge management platform tailored for Slack/Teams-centric organizations with AI Q&A workflows. | $4.00 / user / month billed annually ($5.00 billed monthly; 10 user minimum = $40.00 / month for Basic) | **Free Trial:** 30-day free trial with full access to Q&A workflows, Slack integration, and up to 100 users (no permanent free plan). |
+| **[Guru](https://www.getguru.com/)** | AI enterprise knowledge platform delivering verified answers and cards directly within workflows and browsers. | $15.00 / user / month billed annually ($18.00 billed monthly for All-in-one plan) | **Free Trial:** 30-day free trial with full access to AI enterprise search, browser extension, Slack/Teams integration, and verification workflows (no permanent free plan). |
+| **[Document360](https://document360.com/)** | Comprehensive documentation portal and knowledge base platform for customer-facing and internal documentation. | $99.00 / project / month billed annually ($149.00 billed monthly for Professional plan) | **Free Trial:** 14-day free trial with access to 1 project workspace, up to 5 team accounts, full analytics, and 100 API calls/min (no permanent free plan). |
+| **[GitBook](https://www.gitbook.com/)** | Modern developer-friendly documentation platform with Markdown editor, Git sync, and technical wiki features. | $65.00 / site / month + $12.00 / user / month (Premium plan, billed annually) | **Free Plan:** Free forever for 1 user on a `gitbook.io` subdomain with unlimited traffic and preview builds; paid team plans offer a 14-day free trial. |
+| **[Slite](https://slite.com/)** | Collaborative knowledge base with an AI assistant that summarizes, verifies, and organizes company docs automatically. | $10.00 / user / month (Standard plan billed annually) | **Free Trial:** 14-day free trial with full access to AI assistant, verification bot, templates, and team integrations (no permanent free plan). |
 
 
 

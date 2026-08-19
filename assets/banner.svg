@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16">
+        <animate attributeName="stop-color" values="#090d16;#0d1527;#090d16" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#172554;#0f172a" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#030712">
+        <animate attributeName="stop-color" values="#030712;#0b1120;#030712" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Accent Linear Gradients -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      letter-spacing: -0.5px;
+      fill: url(#accent-grad);
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+      fill: #94a3b8;
+    }
+    .tagline-badge {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      fill: #38bdf8;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" />
+  <rect width="1200" height="360" rx="16" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Animated Network & Graph Constellation Lines -->
+  <g stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.2">
+    <line x1="120" y1="60" x2="240" y2="120" />
+    <line x1="240" y1="120" x2="180" y2="240" />
+    <line x1="180" y1="240" x2="90" y2="280" />
+    <line x1="240" y1="120" x2="380" y2="80" />
+    <line x1="380" y1="80" x2="480" y2="180" />
+
+    <line x1="1080" y1="80" x2="960" y2="140" />
+    <line x1="960" y1="140" x2="1020" y2="260" />
+    <line x1="960" y1="140" x2="840" y2="90" />
+    <line x1="840" y1="90" x2="740" y2="180" />
+    <line x1="1020" y1="260" x2="1110" y2="300" />
+  </g>
+
+  <!-- Network Nodes with Glow and Animations -->
+  <!-- Left Nodes -->
+  <circle cx="120" cy="60" r="5" fill="#38bdf8" filter="url(#soft-glow)">
+    <animate attributeName="r" values="4;7;4" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="240" cy="120" r="8" fill="#818cf8" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="180" cy="240" r="6" fill="#c084fc" filter="url(#soft-glow)">
+    <animate attributeName="r" values="5;8;5" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="90" cy="280" r="4" fill="#38bdf8" />
+  <circle cx="380" cy="80" r="6" fill="#06b6d4" />
+  <circle cx="480" cy="180" r="7" fill="#818cf8">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Right Nodes -->
+  <circle cx="1080" cy="80" r="6" fill="#38bdf8" filter="url(#soft-glow)">
+    <animate attributeName="r" values="5;8;5" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="960" cy="140" r="9" fill="#c084fc" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1020" cy="260" r="6" fill="#818cf8" filter="url(#soft-glow)">
+    <animate attributeName="r" values="4;7;4" dur="3.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="840" cy="90" r="5" fill="#38bdf8" />
+  <circle cx="740" cy="180" r="7" fill="#a855f7">
+    <animate attributeName="opacity" values="0.4;0.95;0.4" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1110" cy="300" r="4" fill="#06b6d4" />
+
+  <!-- Center Floating Knowledge Icons / Geometric Graphics -->
+  <g transform="translate(600, 72)" filter="url(#glow)">
+    <rect x="-35" y="-20" width="70" height="40" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.8">
+      <animate attributeName="stroke" values="#38bdf8;#818cf8;#c084fc;#38bdf8" dur="6s" repeatCount="indefinite" />
+    </rect>
+    <path d="M -20 -6 L 20 -6 M -20 2 L 15 2 M -20 10 L 5 10" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Tagline Pill Badge -->
+  <g transform="translate(600, 136)">
+    <rect x="-140" y="-14" width="280" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="0" y="5" text-anchor="middle" class="tagline-badge">✨ KNOWLEDGE BASE ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Center Titles -->
+  <g transform="translate(600, 205)">
+    <text x="0" y="0" text-anchor="middle" class="title-text" filter="url(#soft-glow)">Awesome Enterprise Wiki</text>
+  </g>
+
+  <g transform="translate(600, 250)">
+    <text x="0" y="0" text-anchor="middle" class="subtitle-text">Curated Directory of Enterprise SaaS Platforms &amp; Self-Hosted Open-Source Wikis</text>
+  </g>
+
+  <!-- Bottom Feature Micro-Tags -->
+  <g transform="translate(600, 305)" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#cbd5e1">
+    <g transform="translate(-320, 0)">
+      <rect x="-70" y="-12" width="140" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#93c5fd">🏢 SaaS Platforms</text>
+    </g>
+    <g transform="translate(-110, 0)">
+      <rect x="-70" y="-12" width="140" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#c084fc">🚀 Self-Hosted</text>
+    </g>
+    <g transform="translate(100, 0)">
+      <rect x="-70" y="-12" width="140" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#6ee7b7">🔒 Data Privacy</text>
+    </g>
+    <g transform="translate(300, 0)">
+      <rect x="-80" y="-12" width="160" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#fde047">⚡ Real-Time Collab</text>
+    </g>
+  </g>
+</svg>
